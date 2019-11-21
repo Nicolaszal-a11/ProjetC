@@ -1,0 +1,39 @@
+body
+{
+
+    background-image: url("image/microsoft3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3
+{
+text-align: center;
+    color:white;
+
+}
+
+#p
+{
+color: greenyellow;
+}
+
+.console
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer 
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    color: white;
+  
+}

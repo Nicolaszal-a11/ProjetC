@@ -1,0 +1,38 @@
+body
+{
+
+    background-image: url("image/sony5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.console
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3
+{
+text-align: center;
+    color:white;
+
+}
+
+ #p
+ {
+color: white;
+ }
+
+
+.footer 
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+  
+}

@@ -1,0 +1,12 @@
+
+.scroll
+{
+    border : 0px
+}
+
+
+.bouton
+{
+    display: flex;
+    justify-content: space-around;
+}
