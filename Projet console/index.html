@@ -8,43 +8,42 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Menu</title>
 </head>
 
 <body>
-
     <section>
 
-        <marquee direction="right" scrollamount="10">
-            <h1>IL EST TEMPS DE FAIRE VOTRE CHOIX ...</h1>
-        </marquee>
 
-    </section>
-
-    <section>
-
-        ​<picture class="scroll">
-            <marquee scrollamount="10">
-                <img src="image/sony3.jpg" class="img-fluid" alt="sony">
+        ​<picture id="consoleindex">
+            <marquee id="positionimg" direction="right" scrollamount="18">
                 <img src="image/nintendo3.1.jpg" class="img-fluid" alt="Nintendo">
+                <img src="image/sony3.jpg" class="img-fluid" alt="sony">
                 <img src="image/microsoft3.png" class="img-fluid" alt="Microsft">
             </marquee>
+
         </picture>
 
     </section>
-
     <section>
-
-        <div class="bouton">
-            <a href="playstation.html" role="button" title="Bienvenue chez Sony"><img src="image/sony3.jpg" width="200"
-                    height="auto"></a>
-            <a href="nintendo.html" role="button" title="Bienvenue chez Nintendo"><img src="image/nintendo3.1.jpg"
-                    width="200" height="auto"></a>
-            <a href="microsoft.html" role="button" title="Bienvenue chez Microsft"><img src="image/microsoft3.png"
-                    width="200" height="auto"></a>
-        </div>
-
+        <marquee id="positiontxt"  scrollamount="5">
+            <h1>IL EST TEMPS DE FAIRE VOTRE CHOIX ...</h1>
+        </marquee>
+        <div id="bouton">
+                <a href="nintendo.html" role="button" title="Bienvenue chez Nintendo"><img
+                        src="image/nintendo3.1.jpg" width="150" height="auto"></a>
+                <a href="playstation.html" role="button" title="Bienvenue chez Sony"><img
+                        src="image/sony3.jpg" width="150" height="auto"></a>
+                <a href="microsoft.html" role="button" title="Bienvenue chez Microsft"><img
+                        src="image/microsoft3.png" width="150" height="auto"></a>
+            </div>                    
+            <p id="pindex">Clic sur le logo de ton choix</p>
     </section>
+    <!-- <audio controls>
+            <source src="audio/pink-floyd-shine-on-you-crazy-diamond-official-music-video.mp3">
+            <source src="audio/08 - Nothing Else Matters.mp3">
+        </audio>
+-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

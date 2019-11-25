@@ -1,12 +1,355 @@
 
-.scroll
+
+body
 {
-    border : 0px
+background-color: black;
+
 }
 
+#consoleindex
+{
+    display: flex;
 
-.bouton
+}
+
+#positiontxt
+{
+	position: relative;
+   /* z-index:1; */
+    color: white;
+
+}
+
+#positionimg
+{
+
+	position: absolute;
+	
+}
+
+#bouton
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+ 
+}
+
+#pindex
+{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    position: relative;
+}
+
+/*--------------------------- Playstation Ninitendo Microsoft -------------------------*/
+
+#href
+{
+    color: white;
+}
+
+/* ----------------------------playstation ----------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+#playstation
+{
+
+    background-image: url("image/sony5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#consoleplay
 {
     display: flex;
     justify-content: space-around;
 }
+
+#titreplay
+{
+text-align: center;
+    color:white;
+
+}
+
+ #pplay
+ {
+color: white;
+ }
+
+
+#footerplay 
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+  
+}
+
+/*--------------------------------console ---------------------------------*/
+#ps1
+{
+    background: url("image/ps1.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#ps2
+{
+    background: url("image/ps2.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#ps3
+{
+    background: url("image/ps3.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#ps4
+{
+    background: url("image/ps4.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#ps5
+{
+    background: url("image/ps5.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#titreps
+{
+    color: white;
+}
+
+#lisereps 
+{
+ 
+	float: left;
+	width:200px;
+    height: 894px;
+    background-color: rgba(0, 0, 255, .3);
+    /*color: ivory;*/
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px 10px 10px 10px;
+	text-align: justify;
+
+}
+
+#liensps
+{
+    color:black;
+}
+
+#hrefps
+{
+    color: white;
+}
+
+/* -------------------- nintendo ----------------------------------------*/
+/*-----------------------------------------------------------------------*/
+
+#nintendo
+{
+
+    background-image: url("image/nintendo3.1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#console
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#titrenin
+{
+    text-align: center;
+    color: red;
+
+}
+
+ #p
+ {
+    color: red;
+ }
+
+
+#footernin 
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+  
+}
+
+/*--------------------console-------------------------------------------*/
+#nes
+{
+    background: url("image/nes.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#supernin
+{
+    background: url("image/supernintendo.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#nin64
+{
+    background: url("image/nintendo64.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#gamecube
+{
+    background: url("image/gamecube.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#wii
+{
+    background: url("image/wii.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#switch
+{
+    background: url("image/switch.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+#liserenin 
+{
+ 
+	float: left;
+	width:200px;
+    height: 894px;
+    background-color: rgba(255, 0, 0, .3);
+    /*color: ivory;*/
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px 10px 10px 10px;
+	text-align: justify;
+
+}
+
+#liensnin
+{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    color: black;
+
+}
+
+/*-------------------------------------------- xbox ----------------------------------- */
+/*------------------------------------------------------------------------------------- */
+
+#microsoft
+{
+
+    background-image: url("image/microsoft3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#titremicro
+{
+text-align: center;
+    color:greenyellow;
+
+}
+
+#pmicro
+{
+color: greenyellow;
+}
+
+#consolemicro
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#footermicro 
+{
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    color: white;
+  
+}
+/* -------------------- console microsoft---------------------------*/
+
+#xbox
+{
+    background: url("image/xboxblack.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#xbox360
+{
+    background: url("image/xbox360.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#xboxone
+{
+    background: url("image/xboxone.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#xboxones
+{
+    background: url("image/XboxOneS1.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#xboxonex
+{
+    background: url("image/xboxOneX.jfif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#liseremicro 
+{
+ 
+	float: left;
+	width:200px;
+    height: 894px;
+    background-color: rgba(173, 255, 47, 0.3);
+    /*color: ivory;*/
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px 10px 10px 10px;
+	text-align: justify;
+
+}
+
+#liensmicro
+{
+        color: greenyellow;
+}
+
+
